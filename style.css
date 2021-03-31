@@ -69,9 +69,6 @@ a:hover{
 .d-bloc{
     color:rgba(255,255,255,.7)
 }
-.d-bloc button:hover{
-    color:rgba(255,255,255,.9)
-}
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -101,9 +98,6 @@ a:hover{
 .d-bloc h6 a:hover,
 .d-bloc p a:hover{
     color:rgba(255,255,255,1)
-}
-.d-bloc .navbar-toggle .icon-bar{
-    background:rgba(255,255,255,1)
 }
 .l-bloc{
     color:rgba(0,0,0,.5)
@@ -182,12 +176,6 @@ a:hover{
 #bloc-1-hero img{
     width:100px
 }
-.navbar-brand img[src$=svg]{
-    min-width:100px
-}
-.nav-center .navbar-brand img{
-    margin:0
-}
 .navbar .nav{
     padding-top:2px;
     margin-right:-16px;
@@ -213,46 +201,9 @@ a:hover{
     background-color:rgba(0,0,0,.5);
     width:26px
 }
-@media (min-width:768px){
-    .site-navigation{
-        position:absolute;
-        top:50%;
-        right:20px;
-        transform:translate(0,-50%);
-        -webkit-transform:translateY(-50%)
-    }
-    .nav-center{
-        text-align:center
-    }
-    .nav-center .navbar-header{
-        width:100%
-    }
-    .nav-center .nav>li,
-    .nav-center .navbar-brand,
-    .nav-center .navbar-header{
-        float:none;
-        display:inline-block
-    }
-    .nav-center .site-navigation{
-        position:relative;
-        width:100%;
-        right:0;
-        margin-right:0;
-        margin-top:20px
-    }
-}
-.nav>li>.dropdown a{
-    background:0 0!important;
-    display:block;
-    padding:14px 15px
-}
 .mg-md{
     margin-top:10px;
     margin-bottom:20px
-}
-.mg-lg{
-    margin-top:10px;
-    margin-bottom:40px
 }
 .btn{
     margin:0 5px 5px 0
@@ -284,10 +235,6 @@ button{
 }
 .sm-shadow{
     text-shadow:0 1px 2px rgba(0,0,0,.3)
-}
-.form-control{
-    border-color:rgba(0,0,0,.1);
-    box-shadow:none
 }
 .scrollToTop{
     width:40px;
@@ -413,10 +360,6 @@ p{
     max-width:600px;
     margin:auto auto auto auto
 }
-.h1{
-    font-size:20px;
-    font-family:"Open Sans"
-}
 .cta-hero{
     margin-top:22px;
     color:#fff!important;
@@ -445,9 +388,6 @@ h3{
     box-shadow:0 0 0 #000
 }
 h1{
-    color:#333!important
-}
-h4{
     color:#333!important
 }
 .icons{
@@ -495,21 +435,9 @@ h4{
 .ltc-white{
     color:#fff!important
 }
-.ltc-white:hover{
-    color:#ccc!important
-}
-.ltc-atomic-tangerine{
-    color:#f3976c!important
-}
-.ltc-atomic-tangerine:hover{
-    color:#c27956!important
-}
 .icon-dark-slate-blue{
     color:#364577!important;
     border-color:#364577!important
-}
-.bg-dots-bg{
-    background-image:url(img/dots-bg.png)
 }
 .bg-lines-h2-bg{
     background-image:url(img/lines-h2-bg.png)
@@ -540,23 +468,6 @@ h4{
     .title-center{
         width:90%;
         margin:auto
-    }
-}
-@media (max-width:992px) and (min-width:768px){
-    .navbar .nav{
-        max-width:80%
-    }
-    .nav-center.navbar .nav{
-        max-width:100%
-    }
-}
-@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
-    .b-parallax{
-        background-attachment:scroll
-    }
-}
-@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5){
-    .b-parallax{background-attachment:scroll
     }
 }
 @media (max-width:991px){
@@ -614,19 +525,6 @@ h4{
     .nav>li:hover{
         background:rgba(0,0,0,.08)
     }
-    #hero-bloc .navbar .nav{
-        background:rgba(0,0,0,.8)
-    }
-    #hero-bloc .navbar .nav a{
-        color:rgba(255,255,255,.6)
-    }
-    .hero{
-        padding:50px 0
-    }
-    .hero-nav{
-        left:-1px;
-        right:-1px
-    }
     .navbar-collapse{
         padding:0;
         overflow-x:hidden;
@@ -648,28 +546,13 @@ h4{
         padding-left:0;
         padding-right:0
     }
-    .a-block{
-        padding:0 10px
-    }
     .voffset{
         margin-top:5px
-    }
-    .voffset-md{
-        margin-top:20px
     }
     .voffset-lg{
         margin-top:30px
     }
-    form{
-        padding:5px
-    }
     .close-lightbox {
         display: inline-block;
-    }
-}
-@media (max-width:400px){
-    .bloc{
-        padding-left:0;
-        padding-right:0
     }
 }
