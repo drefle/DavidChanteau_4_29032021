@@ -32,7 +32,9 @@ h1{
     font-size:2em
 }
 img{
-    border:0
+    border:0;
+    width:auto;
+    height: 100%;
 }
 button,input,textarea{
     margin:0;
